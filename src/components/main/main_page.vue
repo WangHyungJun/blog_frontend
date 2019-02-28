@@ -28,7 +28,7 @@
           }
       },
       created(){
-        this.$http.get("http://127.0.0.1:8000/blogapi/categories").then(function (data) {
+        this.$http.get("http://wanghyungjun-backend-dev.us-west-2.elasticbeanstalk.com/blogapi/categories").then(function (data) {
           this.categories=data.body;
         });
       },
